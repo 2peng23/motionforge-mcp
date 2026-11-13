@@ -9,7 +9,7 @@ Version 0.1.0 implements 41 discoverable executable tools. Its creative tools pr
 Prerequisites: Node.js >=20.19, npm, FFmpeg/FFprobe on PATH, and Chromium. Tested on macOS with Node20.20 and locally installed Google Chrome. Windows/Linux behavior is designed around portable Node APIs but has not been exercised here.
 
 ```bash
-git clone https://github.com/YOUR-ACCOUNT/motionforge-mcp.git
+git clone https://github.com/2peng23/motionforge-mcp.git
 cd motionforge-mcp
 npm ci
 npx playwright install chromium
@@ -17,7 +17,7 @@ npm run build
 npm test
 ```
 
-The clone URL is a future publication placeholder: this repository has not been uploaded. You can run the existing local folder immediately. Remotion can use the same browser by setting `MOTIONFORGE_BROWSER_PATH` to the installed Chromium/Chrome executable; otherwise its renderer may need its own browser download. Preinstall a browser to keep production work offline.
+Remotion can use the same browser by setting `MOTIONFORGE_BROWSER_PATH` to the installed Chromium/Chrome executable; otherwise its renderer may need its own browser download. Preinstall a browser to keep production work offline.
 
 ```bash
 MOTIONFORGE_ROOTS=/absolute/authorized/project MOTIONFORGE_BROWSER_PATH=/absolute/chrome node dist/server/cli.js
