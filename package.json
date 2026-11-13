@@ -1,0 +1,49 @@
+{
+  "name": "motionforge-mcp",
+  "version": "0.1.0",
+  "description": "Local evidence-driven product video production over MCP",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "motionforge-mcp": "dist/server/cli.js"
+  },
+  "engines": {
+    "node": ">=20.19"
+  },
+  "files": [
+    "dist",
+    "compositions",
+    "templates",
+    "docs",
+    "examples",
+    "README.md",
+    "LICENSE",
+    "scripts/serve-demo.mjs",
+    "CONTRIBUTING.md"
+  ],
+  "scripts": {
+    "build": "tsc && node scripts/executable.mjs",
+    "test": "vitest run",
+    "demo": "tsx scripts/demo.ts",
+    "start": "node dist/server/cli.js",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/server": "2.4.0",
+    "@remotion/bundler": "4.0.543",
+    "@remotion/renderer": "4.0.543",
+    "playwright": "1.65.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "remotion": "4.0.543",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/client": "2.4.0",
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.2.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.3",
+    "vitest": "^4.1.12"
+  }
+}

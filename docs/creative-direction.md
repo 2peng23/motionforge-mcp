@@ -1,0 +1,9 @@
+# Creative direction and editorial responsibility
+
+Every timeline contains a declared direction. The actual renderer uses this to vary typography family, reveal cadence, travel distance and camera scale: cinematic and elegant use slower measured movement and serif headlines; energetic and gaming use stronger typography and faster entries; editorial combines serif hierarchy and restrained pacing; futuristic uses monospaced titles and perspective-friendly motion; minimal/corporate prioritize clear screen demonstrations. Brand background/accent colors are explicit validated inputs, never randomized.
+
+The client chooses direction from actual product, audience, goal and existing identity. These controls are reusable production primitives, not eight claims of unique human art direction. Shot duration, title, source evidence, composition kind and transitions remain explicit. Readability and deliberate holds matter more than effects. A sparse typography scene, device-framed real interaction, split composition and final product statement can form a coherent short reel; copying this shot order blindly to every product is discouraged.
+
+Brief generation reports actual source headings/colors/routes plus the requested goal. It does not invent benefits, customer metrics, shipped features, testimonials or licenses. Client-authored language is preserved in scripts; translate manually or through an explicitly selected external provider. Use captured demonstrations to substantiate claims and end with a real user-supplied CTA.
+
+Render sampled frames and watch the complete video. Automated technical checks cannot judge whether the edit is engaging, the composition is beautiful, the narrative is accurate, or a mix sounds professional. Give important text/UI enough readable time; examine portrait/square compositions separately.

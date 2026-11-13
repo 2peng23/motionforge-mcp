@@ -1,0 +1,1 @@
+{"name":"fieldnote-demo","version":"1.0.0","private":true,"description":"Local product demonstration fixture; no real customer data","scripts":{"dev":"node ../../scripts/serve-demo.mjs"}}
